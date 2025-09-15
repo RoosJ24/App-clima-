@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Meteorológica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Aplicación Meteorológica</h1>
+    </header>
+    <main>
+        <section id="weather-info">
+            <h2>Información del Clima</h2>
+            <div id="current-weather">
+                <p>Temperatura: <span id="temperature"></span></p>
+                <p>Condición: <span id="condition"></span></p>
+            </div>
+            <form id="weather-form">
+                <input type="text" id="city-input" placeholder="Ingrese una ciudad" required>
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Aplicación Meteorológica</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
